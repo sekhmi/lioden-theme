@@ -1,0 +1,54 @@
+/* ==========================================
+   DANGEROUS DIVA • LUXURY PASTEL & SPARKLE THEME
+   ========================================== */
+
+body {
+    background-color: #0b090f !important; /* Deep, moody midnight base */
+    color: #e2d9ec !important; /* Soft pastel lavender text */
+    font-family: "Georgia", serif !important;
+}
+
+/* Main Cards, Panels, and Containers */
+.card, .panel, .well, div[style*="background"] {
+    background-color: #131018 !important;
+    border: 1px solid #d4af37 !important; /* Rich gold/silver luxury border */
+    box-shadow: 0 0 15px rgba(212, 175, 55, 0.25), inset 0 0 20px rgba(230, 200, 255, 0.03) !important; /* Sparkly subtle glow */
+    border-radius: 8px !important;
+}
+
+/* Headers: Elegant, Italic, Sparkly & Diva-like */
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Georgia", serif !important;
+    font-style: italic !important;
+    color: #fff1f8 !important; /* Soft pastel pink-white */
+    text-shadow: 0 0 8px rgba(255, 182, 193, 0.8), 0 0 20px rgba(216, 180, 254, 0.6) !important; /* Diamond sparkle text effect */
+    letter-spacing: 2px !important;
+    border-bottom: 1px dashed rgba(244, 114, 182, 0.4) !important;
+    padding-bottom: 5px !important;
+}
+
+/* Navigation & Links: Dangerous Pastel Accent */
+a {
+    color: #f472b6 !important; /* Striking pastel magenta/pink */
+    text-decoration: none !important;
+    transition: all 0.3s ease-in-out !important;
+}
+
+a:hover {
+    color: #ffffff !important;
+    text-shadow: 0 0 10px #f472b6, 0 0 25px #c084fc !important; /* Intense glowing sparkle on hover */
+}
+
+/* Tables, Borders, and Inputs */
+table, th, td {
+    background-color: transparent !important;
+    color: #e2d9ec !important;
+    border-color: rgba(216, 180, 254, 0.2) !important;
+}
+
+input, select, textarea {
+    background-color: #1a1622 !important;
+    color: #f3e8ff !important;
+    border: 1px solid #f472b6 !important;
+    border-radius: 4px !important;
+}
