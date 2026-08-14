@@ -1,13 +1,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
 
-/* Overall page background */
 body {
-    background-color: #e2e8f0 !important;
+    background-color: #dbeafe !important;
     font-family: 'Montserrat', sans-serif !important;
     color: #334155 !important;
 }
 
-/* Main territory container */
+.topbar {
+    background: #cbd5e1 !important;
+    color: #1e293b !important;
+    border: none !important;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.navbar {
+    background: #e2e8f0 !important;
+    border: none !important;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #334155 !important;
+    font-weight: 600;
+}
+
 .container.main {
     background: #ffffff !important;
     border: 2px solid #94a3b8 !important;
@@ -16,21 +34,18 @@ body {
     padding: 20px;
 }
 
-/* Force Lioden's built-in panels and boxes to stay clean white/icy */
 .panel, .panel-default, .box {
     background-color: #ffffff !important;
     border: 1px solid #cbd5e1 !important;
     border-radius: 8px !important;
 }
 
-/* Turns those tan/brown header sections into Icy Blue */
-.panel-heading, th, .table th, tr.header {
+th, .top, .bottom {
     background-color: #bae6fd !important;
     color: #0f172a !important;
-    border-bottom: 1px solid #94a3b8 !important;
+    border-color: #94a3b8 !important;
 }
 
-/* Tables */
 table, .table {
     background: #ffffff !important;
     border: 1px solid #cbd5e1 !important;
@@ -44,17 +59,14 @@ td {
     border-color: #e2e8f0 !important;
 }
 
-/* Soft icy alternating rows */
 tr td:nth-child(odd) {
     background-color: #f0f9ff !important;
-    border-right: 1px solid #e0f2fe !important;
 }
 
 tr td:nth-child(even) {
     background-color: #ffffff !important;
 }
 
-/* Headings and links */
 h2, h3, .heading {
     font-family: 'Montserrat', sans-serif !important;
     color: #1e293b !important;
