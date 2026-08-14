@@ -1,61 +1,57 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
 
-/* Clean light background */
+/* Overall page background */
 body {
-    background-color: #f0f4f8 !important;
+    background-color: #dbeafe !important;
     font-family: 'Montserrat', sans-serif !important;
-    color: #4a5568 !important;
+    color: #334155 !important;
 }
 
-/* Main territory container with rounded corners and clean white box */
+/* Main territory box */
 .container.main {
     background: #ffffff !important;
-    border: 2px solid #cbd5e1 !important;
+    border: 2px solid #94a3b8 !important;
     border-radius: 12px;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
     padding: 20px;
 }
 
-.col-md-9, .col-md-3 {
-    background: transparent !important;
+/* Sidebars and Panels (Chat box, Bookmarks, etc.) */
+.panel, .sidebar {
+    background: #ffffff !important;
+    border: 1px solid #cbd5e1 !important;
+    border-radius: 8px !important;
+    color: #334155 !important;
 }
 
-/* Stats and info tables styled to match the clean boxed look */
+/* Tables and Headers */
 table, .table {
     background: #ffffff !important;
     border: 1px solid #cbd5e1 !important;
-    border-radius: 8px;
-    overflow: hidden;
+    border-radius: 8px !important;
 }
 
-th, td {
-    color: #334155 !important;
-    padding: 8px 12px !important;
-    border-color: #e2e8f0 !important;
+th, .top, .bottom {
+    background: #e2e8f0 !important;
+    color: #1e293b !important;
+    border-color: #cbd5e1 !important;
 }
 
-/* Crisp alternating row colors matching the target screenshot */
 tr td:nth-child(odd) {
-    background-color: #f8fafc !important;
-    border-right: 1px solid #e2e8f0 !important;
+    background-color: #f1f5f9 !important;
 }
 
 tr td:nth-child(even) {
     background-color: #ffffff !important;
 }
 
-/* Headings and links */
-h2, h3, .heading {
-    font-family: 'Montserrat', sans-serif !important;
-    color: #334155 !important;
-}
-
+/* Links */
 a {
-    color: #64748b !important;
+    color: #2563eb !important;
     text-decoration: none;
 }
 
 a:hover {
-    color: #334155 !important;
+    color: #1d4ed8 !important;
     text-decoration: underline;
 }
