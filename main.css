@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+
+body {
+    background-color: #dbeafe !important;
+    font-family: 'Montserrat', sans-serif !important;
+    color: #334155 !important;
+}
+
+.topbar {
+    background: #cbd5e1 !important;
+    color: #1e293b !important;
+    border: none !important;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.navbar {
+    background: #e2e8f0 !important;
+    border: none !important;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #334155 !important;
+    font-weight: 600;
+}
+
+.container.main {
+    background: #ffffff !important;
+    border: 2px solid #ff00ff !important;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+    padding: 20px;
+}
+
+.panel, .panel-default, .box {
+    background-color: #ffffff !important;
+    border: 1px solid #cbd5e1 !important;
+    border-radius: 8px !important;
+}
+
+th, .top, .bottom {
+    background-color: #bae6fd !important;
+    color: #0f172a !important;
+    border-color: #94a3b8 !important;
+}
+
+table, .table {
+    background: #ffffff !important;
+    border: 1px solid #cbd5e1 !important;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+td {
+    color: #334155 !important;
+    padding: 8px 12px !important;
+    border-color: #e2e8f0 !important;
+}
+
+tr td:nth-child(odd) {
+    background-color: #f0f9ff !important;
+}
+
+tr td:nth-child(even) {
+    background-color: #ffffff !important;
+}
+
+h2, h3, .heading {
+    font-family: 'Montserrat', sans-serif !important;
+    color: #1e293b !important;
+}
+
+a {
+    color: #0284c7 !important;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #0369a1 !important;
+    text-decoration: underline;
+}
