@@ -2,56 +2,70 @@
 
 /* Overall page background */
 body {
-    background-color: #dbeafe !important;
+    background-color: #e2e8f0 !important;
     font-family: 'Montserrat', sans-serif !important;
     color: #334155 !important;
 }
 
-/* Main territory box */
+/* Main territory container */
 .container.main {
     background: #ffffff !important;
     border: 2px solid #94a3b8 !important;
     border-radius: 12px;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
     padding: 20px;
 }
 
-/* Sidebars and Panels (Chat box, Bookmarks, etc.) */
-.panel, .sidebar {
-    background: #ffffff !important;
+/* Force Lioden's built-in panels and boxes to stay clean white/icy */
+.panel, .panel-default, .box {
+    background-color: #ffffff !important;
     border: 1px solid #cbd5e1 !important;
     border-radius: 8px !important;
-    color: #334155 !important;
 }
 
-/* Tables and Headers */
+/* Turns those tan/brown header sections into Icy Blue */
+.panel-heading, th, .table th, tr.header {
+    background-color: #bae6fd !important;
+    color: #0f172a !important;
+    border-bottom: 1px solid #94a3b8 !important;
+}
+
+/* Tables */
 table, .table {
     background: #ffffff !important;
     border: 1px solid #cbd5e1 !important;
-    border-radius: 8px !important;
+    border-radius: 8px;
+    overflow: hidden;
 }
 
-th, .top, .bottom {
-    background: #e2e8f0 !important;
-    color: #1e293b !important;
-    border-color: #cbd5e1 !important;
+td {
+    color: #334155 !important;
+    padding: 8px 12px !important;
+    border-color: #e2e8f0 !important;
 }
 
+/* Soft icy alternating rows */
 tr td:nth-child(odd) {
-    background-color: #f1f5f9 !important;
+    background-color: #f0f9ff !important;
+    border-right: 1px solid #e0f2fe !important;
 }
 
 tr td:nth-child(even) {
     background-color: #ffffff !important;
 }
 
-/* Links */
+/* Headings and links */
+h2, h3, .heading {
+    font-family: 'Montserrat', sans-serif !important;
+    color: #1e293b !important;
+}
+
 a {
-    color: #2563eb !important;
+    color: #0284c7 !important;
     text-decoration: none;
 }
 
 a:hover {
-    color: #1d4ed8 !important;
+    color: #0369a1 !important;
     text-decoration: underline;
 }
