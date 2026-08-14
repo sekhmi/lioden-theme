@@ -1,16 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;1,400;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;1,500;1,700&display=swap');
 
 html, body, #wrapper, #container {
     background-color: #eaf0f6 !important;
     font-family: 'Playfair Display', serif !important;
     font-style: italic !important;
-    color: #334155 !important;
+    font-weight: 500 !important;
+    font-size: 16px !important;
+    color: #1e293b !important;
 }
 
 .topbar, .navbar, .navbar-default {
     background: #e2e8f0 !important;
-    color: #1e293b !important;
+    color: #0f172a !important;
     border: none !important;
+    font-weight: 600 !important;
 }
 
 .container.main {
@@ -31,6 +34,7 @@ th, .top, .bottom, tr.header {
     background-color: #e2e8f0 !important;
     color: #0f172a !important;
     border-color: #cbd5e1 !important;
+    font-weight: 700 !important;
 }
 
 table, .table {
@@ -42,9 +46,10 @@ table, .table {
 
 td {
     background-color: #ffffff !important;
-    color: #334155 !important;
-    padding: 8px 12px !important;
+    color: #1e293b !important;
+    padding: 10px 14px !important;
     border-color: #e2e8f0 !important;
+    font-weight: 500 !important;
 }
 
 tr td:nth-child(odd) {
@@ -58,16 +63,18 @@ tr td:nth-child(even) {
 h1, h2, h3, h4, h5, h6, .heading {
     font-family: 'Playfair Display', serif !important;
     font-style: italic !important;
-    color: #1e293b !important;
+    font-weight: 700 !important;
+    color: #0f172a !important;
 }
 
 a {
-    color: #475569 !important;
+    color: #1e293b !important;
     text-decoration: none;
     font-style: italic;
+    font-weight: 600;
 }
 
 a:hover {
-    color: #1e293b !important;
+    color: #0f172a !important;
     text-decoration: underline;
 }
