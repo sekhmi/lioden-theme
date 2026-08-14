@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;1,400;1,600&display=swap');
+
+body {
+    background-color: #eaf0f6 !important;
+    font-family: 'Playfair Display', serif !important;
+    font-style: italic !important;
+    color: #334155 !important;
+}
+
+.topbar, .navbar, .navbar-default {
+    background: #e2e8f0 !important;
+    color: #1e293b !important;
+    border: none !important;
+}
+
+.container.main {
+    background: #ffffff !important;
+    border: 2px solid #cbd5e1 !important;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+    padding: 20px;
+}
+
+.panel, .panel-default, .box, .panel-heading {
+    background-color: #ffffff !important;
+    border: 1px solid #cbd5e1 !important;
+    border-radius: 8px !important;
+}
+
+th, .top, .bottom, tr.header {
+    background-color: #e2e8f0 !important;
+    color: #1e293b !important;
+    border-color: #cbd5e1 !important;
+}
+
+table, .table {
+    background: #ffffff !important;
+    border: 1px solid #cbd5e1 !important;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+td {
+    background-color: #ffffff !important;
+    color: #334155 !important;
+    padding: 8px 12px !important;
+    border-color: #e2e8f0 !important;
+}
+
+tr td:nth-child(odd) {
+    background-color: #f1f5f9 !important;
+}
+
+tr td:nth-child(even) {
+    background-color: #ffffff !important;
+}
+
+h1, h2, h3, h4, h5, h6, .heading {
+    font-family: 'Playfair Display', serif !important;
+    font-style: italic !important;
+    color: #1e293b !important;
+}
+
+a {
+    color: #475569 !important;
+    text-decoration: none;
+    font-style: italic;
+}
+
+a:hover {
+    color: #1e293b !important;
+    text-decoration: underline;
+}
