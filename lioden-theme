@@ -87,8 +87,7 @@ a:hover {
 
 
 
-
-
+<style>
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap');
 
 html, body, #wrapper, #container {
@@ -114,7 +113,6 @@ html, body, #wrapper, #container {
     padding: 20px;
 }
 
-/* Target all panels, boxes, and headers to completely remove tan/pink */
 .panel, .panel-default, .box, .panel-body, .well {
     background-color: #ffffff !important;
     border: 1px solid #cbd5e1 !important;
@@ -126,7 +124,7 @@ html, body, #wrapper, #container {
     color: #0f172a !important;
     border-bottom: 1px solid #cbd5e1 !important;
     font-weight: 700 !important;
-    background-image: none !important; /* Removes default tan textures */
+    background-image: none !important;
 }
 
 th, .top, .bottom, tr.header {
@@ -160,7 +158,6 @@ tr td:nth-child(even) {
     background-color: #ffffff !important;
 }
 
-/* Fix buttons like "View Breeding Requests" and "Account Settings" */
 .btn, .btn-default {
     background-color: #e2e8f0 !important;
     color: #0f172a !important;
@@ -186,6 +183,35 @@ a {
     text-decoration: none;
     font-weight: 600;
 }
+
+a:hover {
+    color: #0f172a !important;
+    text-decoration: underline;
+}
+</style>
+
+<!-- Your Icy Blue Territory Box -->
+<div style="background:#f0f9ff;border:3px solid #bae6fd;padding:20px;font-family:'Montserrat', sans-serif;color:#1e293b;border-radius:12px;">
+    <div style="text-align:center;border-bottom:2px dashed #cbd5e1;padding-bottom:12px;margin-bottom:15px;">
+        <h2 style="color:#0f172a;margin:0;font-weight:700;">
+            ⟡⋆˙ The Diva Pride ⋆˙⟡
+        </h2>
+        <p style="color:#475569;font-size:14px;margin:5px 0 0 0;font-weight:600;">
+            Level 10 Royal Territory | Sparkling Grace & Elegance 💎
+        </p>
+    </div>
+    <div>
+        <div style="background:rgba(255,255,255,0.9);border:2px solid #cbd5e1;padding:12px;text-align:center;border-radius:8px;">
+            <h4 style="color:#0f172a;margin-top:0;font-weight:700;">❄️ Pride Rules</h4>
+            <p style="font-size:14px;margin:0;color:#1e293b;">
+                19 Lionesses strong. Always accepting friendly visits and gifts! ✨
+            </p>
+        </div>
+    </div>
+    <div style="text-align:center;margin-top:15px;font-size:13px;color:#64748b;">
+        ~ Designed with icy skies and sparkling magic ~
+    </div>
+</div>
 
 a:hover {
     color: #0f172a !important;
